@@ -12,3 +12,5 @@ std::vector<BaseUnit*> ArmyCreate(BaseFactory* factory, int infantries, int arch
 
 	return army;
 }
+
+

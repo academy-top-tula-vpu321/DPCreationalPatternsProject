@@ -129,12 +129,17 @@
   <ItemGroup>
     <ClCompile Include="AbstractFactoryExample.cpp" />
     <ClCompile Include="AbstractUnit.cpp" />
+    <ClCompile Include="Builder.cpp" />
     <ClCompile Include="DPCreationalPatternsProject.cpp" />
     <ClCompile Include="FactoryMethod.cpp" />
+    <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractUnit.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Computer.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
